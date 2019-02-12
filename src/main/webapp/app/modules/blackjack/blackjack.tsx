@@ -22,7 +22,6 @@ export class Blackjack extends React.Component<IHomeProp> {
       <Row>
         <Col md='9'>
           <h2>Welcome, Java blackjack!</h2>
-          <p className='lead'>This is your homepage</p>
           {account && account.login ? (
             <div>
               <Alert color='success'>

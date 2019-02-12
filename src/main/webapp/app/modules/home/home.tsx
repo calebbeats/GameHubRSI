@@ -13,7 +13,7 @@ export interface IHomeProp extends StateProps, DispatchProps {}
 
 export class Home extends React.Component<IHomeProp> {
   componentDidMount() {
-    this.props.getSession();
+    // this.props.getSession();
   }
 
   render() {
@@ -21,9 +21,9 @@ export class Home extends React.Component<IHomeProp> {
     return (
       <Row>
         <Col md="9">
-          <h2>Welcome, Java Hipster!</h2>
+          <h2>Welcome, gamblers!</h2>
           <p className="lead">This is your homepage</p>
-          {account && account.login ? (
+          {/* {account && account.login ? (
             <div>
               <Alert color="success">You are logged in as user {account.login}.</Alert>
             </div>
@@ -47,7 +47,7 @@ export class Home extends React.Component<IHomeProp> {
                 </Link>
               </Alert>
             </div>
-          )}
+          )} */}
           <p>If you have any question on JHipster:</p>
 
           <ul>
