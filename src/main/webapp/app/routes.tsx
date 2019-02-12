@@ -29,34 +29,34 @@ const Admin = Loadable({
 // tslint:enable
 
 const Routes = () => (
-  <div className='view-routes'>
-    <ErrorBoundaryRoute path='/login' component={Login} />
+  <div className="view-routes">
+    <ErrorBoundaryRoute path="/login" component={Login} />
     <Switch>
-      <ErrorBoundaryRoute path='/logout' component={Logout} />
-      <ErrorBoundaryRoute path='/register' component={Register} />
-      <ErrorBoundaryRoute path='/activate/:key?' component={Activate} />
-      <ErrorBoundaryRoute path='/reset/request' component={PasswordResetInit} />
+      <ErrorBoundaryRoute path="/logout" component={Logout} />
+      <ErrorBoundaryRoute path="/register" component={Register} />
+      <ErrorBoundaryRoute path="/activate/:key?" component={Activate} />
+      <ErrorBoundaryRoute path="/reset/request" component={PasswordResetInit} />
       <ErrorBoundaryRoute
-        path='/reset/finish/:key?'
+        path="/reset/finish/:key?"
         component={PasswordResetFinish}
       />
       <PrivateRoute
-        path='/admin'
+        path="/admin"
         component={Admin}
         hasAnyAuthorities={[AUTHORITIES.ADMIN]}
       />
       <PrivateRoute
-        path='/account'
+        path="/account"
         component={Account}
         hasAnyAuthorities={[AUTHORITIES.ADMIN, AUTHORITIES.USER]}
       />
       <PrivateRoute
-        path='/entity'
+        path="/entity"
         component={Entities}
         hasAnyAuthorities={[AUTHORITIES.USER]}
       />
-      <ErrorBoundaryRoute exact path='/' component={Home} />
-      <ErrorBoundaryRoute path='/blackjack' component={Blackjack} />
+      <ErrorBoundaryRoute exact path="/" component={Home} />
+      <ErrorBoundaryRoute path="/blackjack" component={Blackjack} />
     </Switch>
   </div>
 );
