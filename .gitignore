@@ -1,0 +1,14 @@
+/target/
+node_modules
+.classpath
+.project
+mvn.zip
+MavenWrapperDownloader.java
+installs
+maven-wrapper.jar
+maven-wrapper.properties
+org.eclipse.core.resources.prefs
+org.eclipse.jdt.core.prefs
+node.exe
+npm
+npm.cmd
