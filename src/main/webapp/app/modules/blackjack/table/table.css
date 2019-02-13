@@ -1,0 +1,73 @@
+.tableJack {
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 3em;
+  width: 65%;
+  height: 500px;
+  color: #f0f0f0;
+  background-color: #105a10;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border: 15px solid #321e00;
+  -webkit-box-shadow: inset 0px 0px 10px 8px #222;
+          box-shadow: inset 0px 0px 10px 8px #222;
+}
+
+.tableJack .tableJackText .letters {
+  display: inline-block;
+  -webkit-transform-origin: top center;
+          transform-origin: top center;
+  position: absolute;
+  top: -50px;
+  padding-top: 450px;
+  font-size: 3em;
+}
+
+.tableJack .tableJackText .l1 {
+  -webkit-transform: rotate(40deg);
+          transform: rotate(40deg);
+}
+
+.tableJack .tableJackText .l2 {
+  -webkit-transform: rotate(30deg);
+          transform: rotate(30deg);
+}
+
+.tableJack .tableJackText .l3 {
+  -webkit-transform: rotate(20deg);
+          transform: rotate(20deg);
+}
+
+.tableJack .tableJackText .l4 {
+  -webkit-transform: rotate(10deg);
+          transform: rotate(10deg);
+}
+
+.tableJack .tableJackText .l5 {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+}
+
+.tableJack .tableJackText .l6 {
+  -webkit-transform: rotate(-11deg);
+          transform: rotate(-11deg);
+}
+
+.tableJack .tableJackText .l7 {
+  -webkit-transform: rotate(-18deg);
+          transform: rotate(-18deg);
+}
+
+.tableJack .tableJackText .l8 {
+  -webkit-transform: rotate(-27deg);
+          transform: rotate(-27deg);
+}
+
+.tableJack .tableJackText .l9 {
+  -webkit-transform: rotate(-38deg);
+          transform: rotate(-38deg);
+}
+/*# sourceMappingURL=table.css.map */
