@@ -43,7 +43,8 @@ class Hand extends Component {
         {/* rows: hearts, diamond, clubs, spades */}
         {/* row 2:  2 through A*/}
         <div 
-        style={{display: 'flex'}}>
+        style={{display: 'flex',
+        justifyContent: 'center'}}>
         {this.state.cards.map((arg, _, inputArr) => {
           console.log(arg, inputArr)
           return <Card suit={arg[1]} card={arg[0]} />
