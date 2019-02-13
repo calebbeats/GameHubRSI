@@ -40,3 +40,12 @@ export const Home = props => (
     </NavLink>
   </NavItem>
 );
+
+export const Blackjack = props => (
+  <NavItem>
+    <NavLink tag={Link} to="/blackjack" className="d-flex align-items-center">
+      <FontAwesomeIcon icon="heart" />
+      <span>Blackjack</span>
+    </NavLink>
+  </NavItem>
+);
