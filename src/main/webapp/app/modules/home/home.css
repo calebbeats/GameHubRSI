@@ -1,6 +1,13 @@
 /* ==========================================================================
 Main page styles
 ========================================================================== */
+body {
+  text-align: center;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .hipster {
   display: inline-block;
   width: 100%;

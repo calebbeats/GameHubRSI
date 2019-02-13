@@ -2,15 +2,14 @@ import './header.scss';
 
 import React from 'react';
 
-import { Navbar, Nav, NavbarToggler, NavbarBrand, Collapse, NavItem, NavLink } from 'reactstrap';
+import { Navbar, Nav, NavbarToggler, NavbarBrand, Collapse } from 'reactstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import { NavLink as Link } from 'react-router-dom';
 import LoadingBar from 'react-redux-loading-bar';
 
-import { Home, Brand } from './header-components';
+import { Home, Brand, Blackjack } from './header-components';
 import { AdminMenu, EntitiesMenu, AccountMenu } from './menus';
-import {Blackjack, IHomeProp} from '../../../modules/blackjack/blackjack'
 
 export interface IHeaderProps {
   isAuthenticated: boolean;
@@ -55,12 +54,7 @@ export default class Header extends React.Component<IHeaderProps, IHeaderState> 
           <Collapse isOpen={this.state.menuOpen} navbar>
             <Nav id="header-tabs" className="ml-auto" navbar>
               <Home />
-                <NavItem>
-                  <NavLink tag={Link} to="/blackjack" className="d-flex align-items-center">
-                    <FontAwesomeIcon icon="heart" />
-                    <span>Blackjack</span>
-                  </NavLink>
-                </NavItem>
+              <Blackjack />
               {isAuthenticated && <EntitiesMenu />}
               {isAuthenticated && isAdmin && <AdminMenu showSwagger={isSwaggerEnabled} />}
               <AccountMenu isAuthenticated={isAuthenticated} />
