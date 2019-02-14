@@ -1,6 +1,6 @@
 package com.rsi.gamehub.web.rest;
 
-import com.rsi.gamehub.GameHubApp;
+import com.rsi.gamehub.GameHubRsisqlApp;
 import com.rsi.gamehub.config.audit.AuditEventConverter;
 import com.rsi.gamehub.domain.PersistentAuditEvent;
 import com.rsi.gamehub.repository.PersistenceAuditEventRepository;
@@ -33,7 +33,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
  * @see AuditResource
  */
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = GameHubApp.class)
+@SpringBootTest(classes = GameHubRsisqlApp.class)
 @Transactional
 public class AuditResourceIntTest {
 

@@ -1,6 +1,6 @@
 package com.rsi.gamehub.web.rest;
 
-import com.rsi.gamehub.GameHubApp;
+import com.rsi.gamehub.GameHubRsisqlApp;
 import com.rsi.gamehub.config.Constants;
 import com.rsi.gamehub.domain.Authority;
 import com.rsi.gamehub.domain.User;
@@ -48,7 +48,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
  * @see AccountResource
  */
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = GameHubApp.class)
+@SpringBootTest(classes = GameHubRsisqlApp.class)
 public class AccountResourceIntTest {
 
     @Autowired

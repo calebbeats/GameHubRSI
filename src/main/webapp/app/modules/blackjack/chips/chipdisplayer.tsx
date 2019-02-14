@@ -1,8 +1,6 @@
-import React from "react";
+import React from 'react';
 
-import 'chips.scss';
-
-import { RedChips, BlueChips, GreenChips } from "./chips";
+import { RedChips, BlueChips, GreenChips } from './chips';
 
 export const ChipDisplayer = props => {
   let fiveChip = 0;

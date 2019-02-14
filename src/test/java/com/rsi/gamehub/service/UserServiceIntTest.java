@@ -1,6 +1,6 @@
 package com.rsi.gamehub.service;
 
-import com.rsi.gamehub.GameHubApp;
+import com.rsi.gamehub.GameHubRsisqlApp;
 import com.rsi.gamehub.config.Constants;
 import com.rsi.gamehub.domain.User;
 import com.rsi.gamehub.repository.UserRepository;
@@ -36,7 +36,7 @@ import static org.mockito.Mockito.when;
  * @see UserService
  */
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = GameHubApp.class)
+@SpringBootTest(classes = GameHubRsisqlApp.class)
 @Transactional
 public class UserServiceIntTest {
 
