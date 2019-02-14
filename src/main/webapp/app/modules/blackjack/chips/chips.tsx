@@ -3,7 +3,7 @@ import React from "react";
 export const RedChips = () => {
   return (
     <span className="redchips">
-      <div>$5</div>
+      <div >$5</div>
     </span>
   );
 };
