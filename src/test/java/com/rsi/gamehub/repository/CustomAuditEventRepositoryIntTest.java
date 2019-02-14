@@ -1,6 +1,6 @@
 package com.rsi.gamehub.repository;
 
-import com.rsi.gamehub.GameHubApp;
+import com.rsi.gamehub.GameHubRsisqlApp;
 import com.rsi.gamehub.config.Constants;
 import com.rsi.gamehub.config.audit.AuditEventConverter;
 import com.rsi.gamehub.domain.PersistentAuditEvent;
@@ -31,7 +31,7 @@ import static com.rsi.gamehub.repository.CustomAuditEventRepository.EVENT_DATA_C
  * @see CustomAuditEventRepository
  */
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = GameHubApp.class)
+@SpringBootTest(classes = GameHubRsisqlApp.class)
 @Transactional
 public class CustomAuditEventRepositoryIntTest {
 

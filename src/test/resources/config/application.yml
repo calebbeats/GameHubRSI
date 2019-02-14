@@ -13,21 +13,15 @@
 # http://docs.spring.io/spring-boot/docs/current/reference/html/common-application-properties.html
 # ===================================================================
 
-eureka:
-    client:
-        enabled: false
-    instance:
-        appname: GameHub
-        instanceId: GameHub:${spring.application.instance-id:${random.value}}
 
 spring:
     application:
-        name: GameHub
+        name: GameHubRSISQL
     cache:
         type: simple
     datasource:
         type: com.zaxxer.hikari.HikariDataSource
-        url: jdbc:h2:mem:GameHub;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+        url: jdbc:h2:mem:GameHubRSISQL;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
         name:
         username:
         password:
@@ -93,7 +87,7 @@ jhipster:
         authentication:
             jwt:
                 # This token must be encoded using Base64 (you can type `echo 'secret-key'|base64` on your command line)
-                base64-secret: NTk4Y2YzM2ZhYzQ0MDYyNjdhZjc1ODZiYzVlYzlkZGY5YTA2YTRhZWQ3MWY3MDY4OTI5YmJkNTgxOGVmNDJkNzZiZDA0MGY0MmZlMGUxNDZkYTZhMWY0MmVmNDIwZDIwMTVhODdkNDIwYzRiOWQ4ZTBkM2M4MTM5ZDM0N2U2NDQ=
+                base64-secret: NjhmNjE2YmIyYTBkN2ZhNzJiMjFmM2YzYWI5NWI5ODgyMGQ0M2IzYjg2ODlhNWE1ZDc4MzFmMDg4NWMyMGYxY2YyYmVhMDdiOWU5ODYyNmU5ZGJmNjBlYzg1YzdhZGRmZjU4ZTUwNWQ3ZDI5OWIwMzU2YzFiODE5NjQwZWJlODA=
                 # Token is valid 24 hours
                 token-validity-in-seconds: 86400
     metrics:

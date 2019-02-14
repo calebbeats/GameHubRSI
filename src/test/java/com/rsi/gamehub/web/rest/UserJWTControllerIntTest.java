@@ -1,6 +1,6 @@
 package com.rsi.gamehub.web.rest;
 
-import com.rsi.gamehub.GameHubApp;
+import com.rsi.gamehub.GameHubRsisqlApp;
 import com.rsi.gamehub.domain.User;
 import com.rsi.gamehub.repository.UserRepository;
 import com.rsi.gamehub.security.jwt.TokenProvider;
@@ -32,7 +32,7 @@ import static org.hamcrest.Matchers.not;
  * @see UserJWTController
  */
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = GameHubApp.class)
+@SpringBootTest(classes = GameHubRsisqlApp.class)
 public class UserJWTControllerIntTest {
 
     @Autowired
