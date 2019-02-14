@@ -18,6 +18,7 @@ class LoginModal extends React.Component<ILoginModalProps> {
   };
 
   render() {
+    console.log("Props are: ", this.props);
     const { loginError, handleClose } = this.props;
 
     return (

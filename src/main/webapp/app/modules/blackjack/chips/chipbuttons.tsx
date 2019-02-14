@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react';
 
-import "./chipbuttons.css";
+import './chipbuttons.css';
 
 export const TotalBet = props => {
   return <div className="total">Money: ${props.money}</div>;

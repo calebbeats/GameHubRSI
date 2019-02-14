@@ -1,0 +1,73 @@
+button {
+   margin-top: 2em;
+   border-radius: 0.5em;
+   padding: 0.5em;
+   background-color: rgb(16, 90, 16);
+   color: #fff;
+}
+
+.tableJack {
+   font-family: 'Times New Roman', Times, serif;
+   margin: 3em auto 3em auto;
+   width: 65%;
+   height: 500px;
+   color: rgb(240, 240, 240);
+   background-color: rgb(16, 90, 16);
+   border-bottom-left-radius: 55%;
+   border-bottom-right-radius: 50%;
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+   border: 15px solid rgb(50, 30, 0);
+   box-shadow: inset 0px 0px 10px 8px #222;
+   // position: relative;
+
+   .tableJackText {
+      
+      .letters {
+         display: inline-block;
+         text-align: center;
+         transform-origin: top center;
+         position: absolute;
+         top: -150px;
+         padding-top: 650px;
+         font-size: 3em;
+      }
+
+      .l1 {
+         transform: rotate(33deg);
+      }
+
+      .l2 {
+         transform: rotate(25deg);
+      }
+
+      .l3 {
+         transform: rotate(18deg);
+      }
+
+      .l4 {
+         transform: rotate(12deg);
+      }
+
+      .l5 {
+         transform: rotate(5deg);
+      }
+
+      .l6 {
+         transform: rotate(-8deg);
+      }
+
+      .l7 {
+         transform: rotate(-16deg);
+      }
+
+      .l8 {
+         transform: rotate(-25deg);
+      }
+
+      .l9 {
+         transform: rotate(-33deg);
+      }
+   }
+}
+
