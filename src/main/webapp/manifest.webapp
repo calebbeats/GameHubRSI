@@ -1,6 +1,6 @@
 {
-  "name": "GameHub",
-  "short_name": "GameHub",
+  "name": "GameHubRSISQL",
+  "short_name": "GameHubRSISQL",
   "icons": [
       {
           "src": "./content/images/jhipster_family_member_3_head-192.png",

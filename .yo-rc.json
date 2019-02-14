@@ -1,0 +1,35 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.rsi.gamehub"
+    },
+    "jhipsterVersion": "5.8.1",
+    "applicationType": "monolith",
+    "baseName": "GameHubRSISQL",
+    "packageName": "com.rsi.gamehub",
+    "packageFolder": "com/rsi/gamehub",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": "spring-websocket",
+    "databaseType": "sql",
+    "devDatabaseType": "mssql",
+    "prodDatabaseType": "mssql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "NjhmNjE2YmIyYTBkN2ZhNzJiMjFmM2YzYWI5NWI5ODgyMGQ0M2IzYjg2ODlhNWE1ZDc4MzFmMDg4NWMyMGYxY2YyYmVhMDdiOWU5ODYyNmU5ZGJmNjBlYzg1YzdhZGRmZjU4ZTUwNWQ3ZDI5OWIwMzU2YzFiODE5NjQwZWJlODA=",
+    "clientFramework": "react",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false
+  }
+}
