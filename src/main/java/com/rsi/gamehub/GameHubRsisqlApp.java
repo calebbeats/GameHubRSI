@@ -12,7 +12,6 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.liquibase.LiquibaseProperties;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
-import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.core.env.Environment;
 
 import javax.annotation.PostConstruct;
@@ -23,19 +22,18 @@ import java.util.Collection;
 
 @SpringBootApplication
 @EnableConfigurationProperties({LiquibaseProperties.class, ApplicationProperties.class})
-@EnableDiscoveryClient
-public class GameHubApp {
+public class GameHubRsisqlApp {
 
-    private static final Logger log = LoggerFactory.getLogger(GameHubApp.class);
+    private static final Logger log = LoggerFactory.getLogger(GameHubRsisqlApp.class);
 
     private final Environment env;
 
-    public GameHubApp(Environment env) {
+    public GameHubRsisqlApp(Environment env) {
         this.env = env;
     }
 
     /**
-     * Initializes GameHub.
+     * Initializes GameHubRSISQL.
      * <p>
      * Spring profiles can be configured with a program argument --spring.profiles.active=your-active-profile
      * <p>
@@ -60,7 +58,7 @@ public class GameHubApp {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        SpringApplication app = new SpringApplication(GameHubApp.class);
+        SpringApplication app = new SpringApplication(GameHubRsisqlApp.class);
         DefaultProfileUtil.addDefaultProfile(app);
         Environment env = app.run(args).getEnvironment();
         logApplicationStartup(env);

@@ -1,7 +1,7 @@
 package com.rsi.gamehub.service;
 import com.rsi.gamehub.config.Constants;
 
-import com.rsi.gamehub.GameHubApp;
+import com.rsi.gamehub.GameHubRsisqlApp;
 import com.rsi.gamehub.domain.User;
 import io.github.jhipster.config.JHipsterProperties;
 import org.junit.Before;
@@ -30,7 +30,7 @@ import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.*;
 
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = GameHubApp.class)
+@SpringBootTest(classes = GameHubRsisqlApp.class)
 public class MailServiceIntTest {
 
     @Autowired

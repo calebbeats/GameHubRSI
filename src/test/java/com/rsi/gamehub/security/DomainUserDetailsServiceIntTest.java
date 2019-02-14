@@ -1,6 +1,6 @@
 package com.rsi.gamehub.security;
 
-import com.rsi.gamehub.GameHubApp;
+import com.rsi.gamehub.GameHubRsisqlApp;
 import com.rsi.gamehub.domain.User;
 import com.rsi.gamehub.repository.UserRepository;
 
@@ -26,7 +26,7 @@ import static org.assertj.core.api.Assertions.assertThat;
  * @see DomainUserDetailsService
  */
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = GameHubApp.class)
+@SpringBootTest(classes = GameHubRsisqlApp.class)
 @Transactional
 public class DomainUserDetailsServiceIntTest {
 

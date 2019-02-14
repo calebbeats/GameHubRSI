@@ -1,6 +1,6 @@
 package com.rsi.gamehub.config.timezone;
 
-import com.rsi.gamehub.GameHubApp;
+import com.rsi.gamehub.GameHubRsisqlApp;
 import com.rsi.gamehub.repository.timezone.DateTimeWrapper;
 import com.rsi.gamehub.repository.timezone.DateTimeWrapperRepository;
 import org.junit.Before;
@@ -23,7 +23,7 @@ import static org.assertj.core.api.Assertions.assertThat;
  * Unit tests for the UTC Hibernate configuration.
  */
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = GameHubApp.class)
+@SpringBootTest(classes = GameHubRsisqlApp.class)
 public class HibernateTimeZoneTest {
 
     @Autowired
