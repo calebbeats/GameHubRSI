@@ -1,13 +1,19 @@
+button {
+  margin-top: 2em;
+  border-radius: 0.5em;
+  padding: 0.5em;
+  background-color: #105a10;
+  color: #fff;
+}
+
 .tableJack {
   font-family: 'Times New Roman', Times, serif;
-  margin-top: 3em;
+  margin: 3em auto 3em auto;
   width: 65%;
   height: 500px;
   color: #f0f0f0;
   background-color: #105a10;
-  margin-left: auto;
-  margin-right: auto;
-  border-bottom-left-radius: 50%;
+  border-bottom-left-radius: 55%;
   border-bottom-right-radius: 50%;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
@@ -18,56 +24,57 @@
 
 .tableJack .tableJackText .letters {
   display: inline-block;
+  text-align: center;
   -webkit-transform-origin: top center;
           transform-origin: top center;
   position: absolute;
-  top: -50px;
-  padding-top: 450px;
+  top: -150px;
+  padding-top: 650px;
   font-size: 3em;
 }
 
 .tableJack .tableJackText .l1 {
-  -webkit-transform: rotate(40deg);
-          transform: rotate(40deg);
+  -webkit-transform: rotate(33deg);
+          transform: rotate(33deg);
 }
 
 .tableJack .tableJackText .l2 {
-  -webkit-transform: rotate(30deg);
-          transform: rotate(30deg);
+  -webkit-transform: rotate(25deg);
+          transform: rotate(25deg);
 }
 
 .tableJack .tableJackText .l3 {
-  -webkit-transform: rotate(20deg);
-          transform: rotate(20deg);
+  -webkit-transform: rotate(18deg);
+          transform: rotate(18deg);
 }
 
 .tableJack .tableJackText .l4 {
-  -webkit-transform: rotate(10deg);
-          transform: rotate(10deg);
+  -webkit-transform: rotate(12deg);
+          transform: rotate(12deg);
 }
 
 .tableJack .tableJackText .l5 {
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
+  -webkit-transform: rotate(5deg);
+          transform: rotate(5deg);
 }
 
 .tableJack .tableJackText .l6 {
-  -webkit-transform: rotate(-11deg);
-          transform: rotate(-11deg);
+  -webkit-transform: rotate(-8deg);
+          transform: rotate(-8deg);
 }
 
 .tableJack .tableJackText .l7 {
-  -webkit-transform: rotate(-18deg);
-          transform: rotate(-18deg);
+  -webkit-transform: rotate(-16deg);
+          transform: rotate(-16deg);
 }
 
 .tableJack .tableJackText .l8 {
-  -webkit-transform: rotate(-27deg);
-          transform: rotate(-27deg);
+  -webkit-transform: rotate(-25deg);
+          transform: rotate(-25deg);
 }
 
 .tableJack .tableJackText .l9 {
-  -webkit-transform: rotate(-38deg);
-          transform: rotate(-38deg);
+  -webkit-transform: rotate(-33deg);
+          transform: rotate(-33deg);
 }
 /*# sourceMappingURL=table.css.map */
