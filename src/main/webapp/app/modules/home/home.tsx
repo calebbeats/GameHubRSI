@@ -19,9 +19,9 @@ export class Home extends React.Component<IHomeProp> {
   render() {
     const { account } = this.props;
     return (
-     <div>
-       <h1>Welcome, Gamblers!</h1>
-     </div>
+      <div>
+        <h1>Welcome, Gamblers!</h1>
+      </div>
     );
   }
 }
