@@ -1,7 +1,7 @@
 package com.rsi.gamehub.service.mapper;
 
 
-import com.rsi.gamehub.GameHubApp;
+import com.rsi.gamehub.GameHubRsisqlApp;
 import com.rsi.gamehub.domain.User;
 import com.rsi.gamehub.service.dto.UserDTO;
 import org.apache.commons.lang3.RandomStringUtils;
@@ -25,7 +25,7 @@ import static org.assertj.core.api.Assertions.assertThat;
  * @see UserMapper
  */
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = GameHubApp.class)
+@SpringBootTest(classes = GameHubRsisqlApp.class)
 public class UserMapperTest {
 
     private static final String DEFAULT_LOGIN = "johndoe";

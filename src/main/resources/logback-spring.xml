@@ -33,8 +33,6 @@
     <logger name="javax.xml.bind" level="WARN"/>
     <logger name="ch.qos.logback" level="WARN"/>
     
-    <logger name="com.netflix" level="WARN"/>
-    <logger name="com.netflix.discovery" level="INFO"/>
     <logger name="com.ryantenney" level="WARN"/>
     <logger name="com.sun" level="WARN"/>
     <logger name="com.zaxxer" level="WARN"/>
@@ -53,6 +51,7 @@
     <logger name="org.springframework.cache" level="WARN"/>
     <logger name="org.thymeleaf" level="WARN"/>
     <logger name="org.xnio" level="WARN"/>
+    <logger name="com.microsoft.sqlserver.jdbc.internals" level="WARN"/>
     <logger name="springfox" level="WARN"/>
     <logger name="sun.rmi" level="WARN"/>
     <logger name="liquibase" level="WARN"/>

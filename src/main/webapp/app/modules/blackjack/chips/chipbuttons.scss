@@ -1,0 +1,113 @@
+@import url(https://fonts.googleapis.com/css?family=Arvo:700);
+
+.total {
+  font-family: arvo;
+  text-transform: uppercase;
+  /* text-shadow: -3px -3px 0 rgb(202, 202, 202); */
+  font-weight: bolder;
+  width: 100px;
+}
+
+.fivebet {
+  position: relative;
+  margin: 10px 0;
+  width: 200px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: gold;
+  border-bottom: solid 10px rgb(207, 176, 1);
+  border-right: solid 10px rgb(207, 176, 1);
+}
+.fivebet:before {
+  position: absolute;
+  content: '';
+  top: 0px;
+  left: 0px;
+  right: -10px;
+  bottom: -10px;
+  border: solid 3px black;
+  border-radius: 5px;
+}
+
+.fivebet div {
+  font-family: arvo;
+  text-align: center;
+  color: rgb(45, 199, 45);
+  text-shadow: 2px 0 0 rgb(0, 0, 0), -2px 0 0 rgb(0, 0, 0), 0 2px 0 rgb(0, 0, 0), 0 -2px 0 rgb(0, 0, 0), 1px 1px rgb(0, 0, 0),
+    -1px -1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0), -1px 1px 0 rgb(0, 0, 0);
+  font-size: 30px;
+  line-height: 50px;
+  text-transform: uppercase;
+}
+
+.twentyfivebet {
+  position: relative;
+  margin: 10px 0;
+  width: 200px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: gold;
+  border-bottom: solid 10px rgb(207, 176, 1);
+  border-right: solid 10px rgb(207, 176, 1);
+}
+.twentyfivebet:before {
+  position: absolute;
+  content: '';
+  top: 0px;
+  left: 0px;
+  right: -10px;
+  bottom: -10px;
+  border: solid 3px black;
+  border-radius: 5px;
+}
+
+.twentyfivebet div {
+  font-family: arvo;
+  text-align: center;
+  color: rgb(45, 199, 45);
+  text-shadow: 2px 0 0 rgb(0, 0, 0), -2px 0 0 rgb(0, 0, 0), 0 2px 0 rgb(0, 0, 0), 0 -2px 0 rgb(0, 0, 0), 1px 1px rgb(0, 0, 0),
+    -1px -1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0), -1px 1px 0 rgb(0, 0, 0);
+  font-size: 30px;
+  line-height: 50px;
+  text-transform: uppercase;
+}
+
+.hundredbet {
+  position: relative;
+  margin: 10px 0;
+  width: 200px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: gold;
+  border-bottom: solid 10px rgb(207, 176, 1);
+  border-right: solid 10px rgb(207, 176, 1);
+}
+.hundredbet:before {
+  position: absolute;
+  content: '';
+  top: 0px;
+  left: 0px;
+  right: -10px;
+  bottom: -10px;
+  border: solid 3px black;
+  border-radius: 5px;
+}
+
+.hundredbet div {
+  font-family: arvo;
+  text-align: center;
+  color: rgb(45, 199, 45);
+  text-shadow: 2px 0 0 rgb(0, 0, 0), -2px 0 0 rgb(0, 0, 0), 0 2px 0 rgb(0, 0, 0), 0 -2px 0 rgb(0, 0, 0), 1px 1px rgb(0, 0, 0),
+    -1px -1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0), -1px 1px 0 rgb(0, 0, 0);
+  font-size: 30px;
+  line-height: 50px;
+  text-transform: uppercase;
+}
+
+.fivebet:active,
+.twentyfivebet:active,
+.hundredbet:active {
+  background-color: rgb(207, 176, 1);
+  border-bottom: solid 10px gold;
+  border-right: solid 10px gold;
+}
