@@ -1,6 +1,6 @@
-import React, {Component} from "react";
+import React, { Component } from 'react';
 
-import "../table/table.scss";
+import '../table/table.scss';
 
 class BlackjackTable extends Component {
   constructor(props) {
@@ -25,7 +25,7 @@ class BlackjackTable extends Component {
           </div>
         </div>
       </>
-    )
+    );
   }
 }
 
