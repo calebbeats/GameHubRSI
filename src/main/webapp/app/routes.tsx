@@ -3,6 +3,7 @@ import { Switch } from 'react-router-dom';
 import Loadable from 'react-loadable';
 
 import Login from 'app/modules/login/login';
+import Blackjack from 'app/modules/blackjack/blackjack';
 import Register from 'app/modules/account/register/register';
 import Activate from 'app/modules/account/activate/activate';
 import PasswordResetInit from 'app/modules/account/password-reset/init/password-reset-init';
@@ -16,12 +17,12 @@ import { AUTHORITIES } from 'app/config/constants';
 
 // tslint:disable:space-in-parens
 const Account = Loadable({
-  loader: () => import(/* webpackChunkName: "account" */ 'app/modules/account'),
+  loader: () => import(/* webpackChunkName: 'account' */ 'app/modules/account'),
   loading: () => <div>loading ...</div>
 });
 
 const Admin = Loadable({
-  loader: () => import(/* webpackChunkName: "administration" */ 'app/modules/administration'),
+  loader: () => import(/* webpackChunkName: 'administration' */ 'app/modules/administration'),
   loading: () => <div>loading ...</div>
 });
 // tslint:enable
@@ -38,7 +39,8 @@ const Routes = () => (
       <PrivateRoute path="/admin" component={Admin} hasAnyAuthorities={[AUTHORITIES.ADMIN]} />
       <PrivateRoute path="/account" component={Account} hasAnyAuthorities={[AUTHORITIES.ADMIN, AUTHORITIES.USER]} />
       <PrivateRoute path="/entity" component={Entities} hasAnyAuthorities={[AUTHORITIES.USER]} />
-      <ErrorBoundaryRoute path="/" component={Home} />
+      <ErrorBoundaryRoute exact path="/" component={Home} />
+      <ErrorBoundaryRoute path="/blackjack" component={Blackjack} />
     </Switch>
   </div>
 );
