@@ -143,3 +143,10 @@ Desktop.ini
 # ESLint
 ######################
 .eslintcache
+
+######################
+# my files
+######################
+creds
+installs
+mvn.zip
