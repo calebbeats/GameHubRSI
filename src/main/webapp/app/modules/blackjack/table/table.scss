@@ -1,71 +1,8 @@
 .tableJack {
-  font-family: 'Times New Roman', Times, serif;
-  margin-top: 3em;
-  width: 65%;
-  height: 500px;
-  color: rgb(240, 240, 240);
-  background-color: rgb(16, 90, 16);
-  margin-left: auto;
-  margin-right: auto;
-  border-bottom-left-radius: 50%;
-  border-bottom-right-radius: 50%;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  border: 15px solid rgb(50, 30, 0);
-  box-shadow: inset 0px 0px 10px 8px #222;
-  // position: relative;
+  margin-top: 1em;
+  background-image: url('./images/pexels-photo-235992.jpeg');
+}
 
-  .tableJackText {
-    // position: absolute;
-    // top: 50%;
-    // left: 50%;
-    // transform: translate(-50%, -50%);
-    // font-size: 3em;
-
-    .letters {
-      display: inline-block;
-      transform-origin: top center;
-      // transform: rotate(20deg);
-      position: absolute;
-      top: -50px;
-      padding-top: 450px;
-      font-size: 3em;
-    }
-
-    .l1 {
-      transform: rotate(40deg);
-    }
-
-    .l2 {
-      transform: rotate(30deg);
-    }
-
-    .l3 {
-      transform: rotate(20deg);
-    }
-
-    .l4 {
-      transform: rotate(10deg);
-    }
-
-    .l5 {
-      transform: rotate(0deg);
-    }
-
-    .l6 {
-      transform: rotate(-11deg);
-    }
-
-    .l7 {
-      transform: rotate(-18deg);
-    }
-
-    .l8 {
-      transform: rotate(-27deg);
-    }
-
-    .l9 {
-      transform: rotate(-38deg);
-    }
-  }
+.tableJack img {
+  width: 90%;
 }
