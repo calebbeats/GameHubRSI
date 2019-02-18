@@ -1,5 +1,7 @@
 import React from 'react';
 
+import 'chips.scss';
+
 import { RedChips, BlueChips, GreenChips } from './chips';
 
 export const ChipDisplayer = props => {
